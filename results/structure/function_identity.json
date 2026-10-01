@@ -1,0 +1,11 @@
+{
+"status":"PASS",
+"n":25,"N":33554432,"input_bits_compared":33554432,
+"truth_encoding":"byte[x/8] bit[x%8]; pin_i=(x>>i)&1",
+"network":"mom25_v2.cha","comparators":42,
+"independent_formula":"Maj5(Maj5(x0..x4),Maj5(x5..x9),Maj5(x10..x14),Maj5(x15..x19),Maj5(x20..x24))",
+"netlist_vs_saved":{"count":0,"first_input":null},
+"formula_vs_saved":{"count":0,"first_input":null},
+"netlist_vs_formula":{"count":0,"first_input":null},
+"ones":{"netlist":16777216,"formula":16777216,"saved":16777216}
+}

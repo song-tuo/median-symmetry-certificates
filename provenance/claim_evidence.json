@@ -1,0 +1,16 @@
+{
+  "full_function_identity": "results/structure/function_identity.json",
+  "one_and_two_pin_tables": "results/structure/all_first_second_order_signatures.json",
+  "all_2300_triples": "results/structure/all_2300_third_order_counts.csv",
+  "recovered_five_blocks": "results/structure/recovered_blocks.json",
+  "finite_d4_enumeration": "results/structure/enumerator_result.json",
+  "table_ii": "results/c4/acceptance_raw.json",
+  "table_ii_csv": "results/table_ii.csv",
+  "reflection_counterexample": "results/c4/reflection_counterexample.json",
+  "complete_truth": "data/mom25_v2.bin",
+  "pin_wiring_and_action": "data/c4_wiring.json",
+  "netlist_identity_source": "src/function_structure.cpp",
+  "fixed_wiring_source": "checks/c4/src/c4_acceptance.cpp",
+  "independent_enumeration_source": "src/independent_group_enumerator.py",
+  "all_odd_n_classification": "Symbolic theorem in the associated manuscript, not an all-n experimental result."
+}

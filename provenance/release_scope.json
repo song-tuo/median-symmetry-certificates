@@ -1,0 +1,20 @@
+{
+  "version": "v1.0.0",
+  "paper_title": "Rewiring Hierarchical Median Networks: Spatial Symmetry on Odd Square Windows",
+  "scientific_results_date": "2026-09-29",
+  "release_date": "2026-10-01",
+  "scientific_reruns_during_release": 0,
+  "new_image_hardware_search_experiments": 0,
+  "status": "FROZEN_SAVED_EVIDENCE_WITH_STATIC_PACKAGING_CHECKS",
+  "not_claimed": [
+    "new scientific reproduction during release",
+    "portable execution validation on another machine",
+    "image-quality or hardware benefit",
+    "minimum positive defect",
+    "publication acceptance"
+  ],
+  "original_result_statuses_retained": true,
+  "historical_command_records": "records/; local path redactions explicitly recorded",
+  "upstream_netlist": "download separately; exact pinned bytes required",
+  "dependencies": "C++17 standard library, Clang/GCC builtins; Python 3 standard library; Unix /bin/ps and wait4 for the original bounded supervisor"
+}

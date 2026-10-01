@@ -1,0 +1,1 @@
+{"status": "PASS", "fixtures": ["2x2 four singleton blocks:24 labelings", "3x3 one block:1", "DP duplicate multiplicity:6", "2x2 all homomorphisms into S2 vs direct colorings"], "formal_5x5_not_run": true}

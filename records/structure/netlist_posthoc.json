@@ -1,0 +1,32 @@
+{
+  "command": [
+    "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z/build/function_structure",
+    "posthoc",
+    "$ORIGINAL_PROJECT/inputs/netlists/mom25_v2.cha",
+    "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z/recovered_blocks.csv",
+    "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z/netlist_posthoc.json"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z",
+  "utc_started": "2026-09-29T14:58:20.804259+00:00",
+  "exit_code": 0,
+  "status": "COMPLETED",
+  "stop_reason": null,
+  "science": true,
+  "wall_seconds": 0.05659229199955007,
+  "cpu_user_seconds": 0.0013939999999999998,
+  "cpu_system_seconds": 0.002933,
+  "child_peak_rss_bytes": 1769472,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.002481832998455502,
+      0
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 180.0,
+  "total_scientific_seconds_after": 0.2860336669982644,
+  "stdout": "logs/netlist_posthoc.stdout",
+  "stderr": "logs/netlist_posthoc.stderr"
+}

@@ -1,0 +1,56 @@
+{
+  "command": [
+    "/usr/bin/clang++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "src/c4_acceptance.cpp",
+    "-o",
+    "build/c4_acceptance"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_c4_paper_20260929T164312Z",
+  "utc_started": "2026-09-29T16:49:33.748243+00:00",
+  "exit_code": 0,
+  "status": "COMPLETED",
+  "stop_reason": null,
+  "science": false,
+  "wall_seconds": 1.102174958003161,
+  "cpu_user_seconds": 0.877137,
+  "cpu_system_seconds": 0.117418,
+  "child_peak_rss_bytes": 175702016,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.0015987910010153428,
+      2097152
+    ],
+    [
+      0.20206733299710322,
+      17563648
+    ],
+    [
+      0.4102867910041823,
+      17563648
+    ],
+    [
+      0.6178648330023861,
+      17563648
+    ],
+    [
+      0.8262198750016978,
+      17563648
+    ],
+    [
+      1.0350043330035987,
+      17563648
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 180.0,
+  "total_scientific_seconds_after": null,
+  "stdout": "logs/science_build.stdout",
+  "stderr": "logs/science_build.stderr"
+}

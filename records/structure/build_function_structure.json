@@ -1,0 +1,76 @@
+{
+  "command": [
+    "/usr/bin/clang++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "src/function_structure.cpp",
+    "-o",
+    "build/function_structure"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z",
+  "utc_started": "2026-09-29T14:56:51.454559+00:00",
+  "exit_code": 0,
+  "status": "COMPLETED",
+  "stop_reason": null,
+  "science": false,
+  "wall_seconds": 2.126989374999539,
+  "cpu_user_seconds": 1.977659,
+  "cpu_system_seconds": 0.122153,
+  "child_peak_rss_bytes": 197246976,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.002014666999457404,
+      5488640
+    ],
+    [
+      0.20561608300340595,
+      17498112
+    ],
+    [
+      0.41227149999758694,
+      17498112
+    ],
+    [
+      0.6223800829975517,
+      17498112
+    ],
+    [
+      0.8348184170026798,
+      17498112
+    ],
+    [
+      1.0460527500035823,
+      17498112
+    ],
+    [
+      1.2539638329981244,
+      17498112
+    ],
+    [
+      1.4570253749989206,
+      17498112
+    ],
+    [
+      1.6655469170000288,
+      17498112
+    ],
+    [
+      1.879867292002018,
+      17498112
+    ],
+    [
+      2.0881409170033294,
+      17498112
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 180.0,
+  "total_scientific_seconds_after": null,
+  "stdout": "logs/build_function_structure.stdout",
+  "stderr": "logs/build_function_structure.stderr"
+}

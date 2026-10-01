@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this version of the research artifact and the associated paper when available."
+type: software
+title: "Certificates for Spatial Symmetry of Hierarchical Median Networks"
+authors:
+  - family-names: Dong
+    given-names: Song
+version: 1.0.0
+date-released: 2026-10-01
+repository-code: "https://github.com/song-tuo/median-symmetry-certificates"
+url: "https://github.com/song-tuo/median-symmetry-certificates/releases/tag/v1.0.0"

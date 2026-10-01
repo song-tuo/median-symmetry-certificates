@@ -1,0 +1,38 @@
+{
+  "command": [
+    "python3 [original runtime path removed]",
+    "-c",
+    "import time; time.sleep(0.45)"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z",
+  "utc_started": "2026-09-29T14:49:21.830834+00:00",
+  "exit_code": 0,
+  "status": "COMPLETED",
+  "stop_reason": null,
+  "science": false,
+  "wall_seconds": 0.4924983750024694,
+  "cpu_user_seconds": 0.006797999999999999,
+  "cpu_system_seconds": 0.0027919999999999998,
+  "child_peak_rss_bytes": 15613952,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.001379082998028025,
+      2342912
+    ],
+    [
+      0.21183779100101674,
+      15499264
+    ],
+    [
+      0.41991020800196566,
+      15499264
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 10.0,
+  "total_scientific_seconds_after": null,
+  "stdout": "logs/monitor_permission_preflight.stdout",
+  "stderr": "logs/monitor_permission_preflight.stderr"
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "path": "records/structure/build_function_structure.json",
+    "original_sha256": "212ca0bcf80b1b88b3a8886256b0bea3f3f0417eb5884e8eb0444975151b29d2",
+    "public_sha256": "12e9faa4eda57ff03c69ede403078e073ec8b036a504c7d433e8f55d59702b5e",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/build_function_structure.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/build_function_structure.stdout",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/function_identity.json",
+    "original_sha256": "ad72e90d27605ac31de1c968a2aea0baef8b1ec6cb74c03d6f665704fd0294f5",
+    "public_sha256": "084e4002bb3b3bbf65214569777426c409a729e05045fd757a47afd66038f535",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/function_identity.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/function_identity.stdout",
+    "original_sha256": "1582d0d4edb331fb5062f6a1ed7f57a05d565b0f54abade76f72160f39b53527",
+    "public_sha256": "1582d0d4edb331fb5062f6a1ed7f57a05d565b0f54abade76f72160f39b53527",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/function_structure_unit.json",
+    "original_sha256": "f0f26db90637b22798bb227c33cf6cb1ed0e32987bef9da76dcff7735aa068b5",
+    "public_sha256": "f3556932d66be8796b01c1a7964a56d68c0cf6b8be1182f0fd12845e96466b6c",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/function_structure_unit.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/function_structure_unit.stdout",
+    "original_sha256": "66cc2b532e3c5a1e84ad5ab248560d5c1438a65ea52aa310e658beb357975239",
+    "public_sha256": "66cc2b532e3c5a1e84ad5ab248560d5c1438a65ea52aa310e658beb357975239",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/group_enumeration.json",
+    "original_sha256": "d7e74a99d971ca9da36a23dce3f888516358a9446ba0f80b784c34d915e2e0dc",
+    "public_sha256": "e53922cb9dd70dbafc07e11d13eac1aad28591e12af2c7cece46981a2db4d1fe",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/group_enumeration.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/group_enumeration.stdout",
+    "original_sha256": "cb7bdf0f01da13072cf7bc85ee3791f02d97345a225430c4e1092baecb1dda3b",
+    "public_sha256": "cb7bdf0f01da13072cf7bc85ee3791f02d97345a225430c4e1092baecb1dda3b",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/group_enumerator_unit.json",
+    "original_sha256": "fc2163721f71bc2b99396ce3fa58fab16a8ebd9cdd0b6d6cb19ef1226a22b5ab",
+    "public_sha256": "d581e41d90c59e42f7a86c0619038f98685a9c2e7b226e86b6be35391744b6a6",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/group_enumerator_unit.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/group_enumerator_unit.stdout",
+    "original_sha256": "ac4ce02febb8781665a0aae933b27a272ed425a7d70d9338a8642c62e6a5f7f1",
+    "public_sha256": "ac4ce02febb8781665a0aae933b27a272ed425a7d70d9338a8642c62e6a5f7f1",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/monitor_permission_preflight.json",
+    "original_sha256": "3da0a5f06181963d6fdcf3bd242f021be2792dec8f97132a203086ca596b84f1",
+    "public_sha256": "aac056585ba1d37721a1ea425246acb284ab2ceb685c8190e6f63126f471aa5a",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/monitor_permission_preflight.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/monitor_permission_preflight.stdout",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/monitor_preflight.json",
+    "original_sha256": "ba38385e3c16618f2498c73e436d9da9141095e5e076011f9c4d2a9430908c85",
+    "public_sha256": "673c4bbd8d991377d0b5080e3b731722fee465a117a58dffb5d6be7348ecad6f",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/monitor_preflight.stderr",
+    "original_sha256": "33e4e5e9065a9fd6e1b3d49a236640dba6b86f13a769b6b7d72bcd4f2ad06f59",
+    "public_sha256": "33e4e5e9065a9fd6e1b3d49a236640dba6b86f13a769b6b7d72bcd4f2ad06f59",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/monitor_preflight.stdout",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/netlist_posthoc.json",
+    "original_sha256": "3bd8d201ae2595f6678d15a5bda3112813df61de1f2a57ad0a31ee57a3a7b646",
+    "public_sha256": "c8b16dc3620626e21490c1869abcbc01f971b007789e18779485d306570883e0",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/netlist_posthoc.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/netlist_posthoc.stdout",
+    "original_sha256": "764910a95570e812e3b7cfd95206654ad7443e743316732667025d8448d60808",
+    "public_sha256": "764910a95570e812e3b7cfd95206654ad7443e743316732667025d8448d60808",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/saved_output_audit.json",
+    "original_sha256": "74b4f38c577b48719ca695b037c93420224bd43ceff4fd5aa3ebd45f81dce02f",
+    "public_sha256": "ff48539840eae8f2e706367f1c18eb0fb9d4f871e090d574d576f328cea7d572",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/saved_output_audit.stderr",
+    "original_sha256": "f22d34a7b127c461c0ff79e64fadf8eefdc70d96f4e2679dd0167c1af071bde2",
+    "public_sha256": "6d0939d10621ba539a3c109dbdbf22e58db52824d0e6c74ceb8697879bc0fe70",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/saved_output_audit.stdout",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/truth_structure.json",
+    "original_sha256": "ddbf593c2e9a42e2aec8d930a5b373e1860a888a1ab4192352e854b78b07296a",
+    "public_sha256": "11da6d10d71bb27c435c102c209fba1d6ac440161391217e024f802e5cff9b00",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/truth_structure.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/structure/truth_structure.stdout",
+    "original_sha256": "4b7a3b4f0e0fd5829a53840e848a09403f33eca653d193384f14677f63fc29f7",
+    "public_sha256": "4b7a3b4f0e0fd5829a53840e848a09403f33eca653d193384f14677f63fc29f7",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_adapter_unit.json",
+    "original_sha256": "b9db6f7894a7e14ab6f8c27d2d88ac1e6f8a3ee61341b850d9457ed826ab37c4",
+    "public_sha256": "b841f3faa6768a6fb59bb836bcca9d0b8f2cceb86337736c610978bf1cc15711",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_adapter_unit.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_adapter_unit.stdout",
+    "original_sha256": "c9e0cbf459e08f81e5aab2d60836edc7a83aa25e84458bc62009df1b42563047",
+    "public_sha256": "c9e0cbf459e08f81e5aab2d60836edc7a83aa25e84458bc62009df1b42563047",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_build.json",
+    "original_sha256": "84c301a57e8b5660f99582e0fae4026d07e00c2aaa6aba154b51e83b5545015b",
+    "public_sha256": "a7db365a7a7fa11de9c79093b4b07efc387b32db546ad0042ce03f1bc9307e60",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_build.stderr",
+    "original_sha256": "8bcb3e926611d2e78a69b19fdb460212bb0741339a4a62ef982afcf45e04c04b",
+    "public_sha256": "8bcb3e926611d2e78a69b19fdb460212bb0741339a4a62ef982afcf45e04c04b",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_build.stdout",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_c4_acceptance.json",
+    "original_sha256": "8eb857388737662fbe59d4660cdc93bd17ffb4732125ee2e397b3853a61ef7a3",
+    "public_sha256": "10b568b44fd0f434d5ac68229cef827d8247d2ba0225ccaafa2338d3d8009681",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_c4_acceptance.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_c4_acceptance.stdout",
+    "original_sha256": "286f78d613e645eb082055903f77ae08c123fd532c4daaef608c7ad40925fe87",
+    "public_sha256": "286f78d613e645eb082055903f77ae08c123fd532c4daaef608c7ad40925fe87",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_compiler_version.json",
+    "original_sha256": "ab079e93699bddd14978e577647812acfe91a1089d826edc95aff99c9c8f6a4d",
+    "public_sha256": "e77a2ef5c36f59b73b145994273677c3efd05808df5f840bf6b64990c641a21e",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_compiler_version.stderr",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  },
+  {
+    "path": "records/c4/science_compiler_version.stdout",
+    "original_sha256": "55f7662ee66d47566d9f08f35a12158ac9588e4852f788eed57fa3bf625c9a5d",
+    "public_sha256": "55f7662ee66d47566d9f08f35a12158ac9588e4852f788eed57fa3bf625c9a5d",
+    "redactions": "local filesystem prefixes only; machine status, numerical results and measured resources retained"
+  }
+]

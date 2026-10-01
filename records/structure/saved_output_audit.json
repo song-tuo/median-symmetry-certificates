@@ -1,0 +1,57 @@
+{
+  "command": [
+    "python3 [original runtime path removed]",
+    "src/audit_saved_outputs.py"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z",
+  "utc_started": "2026-09-29T15:04:33.720424+00:00",
+  "exit_code": 1,
+  "status": "FAILED",
+  "stop_reason": null,
+  "science": false,
+  "wall_seconds": 1.5797055420043762,
+  "cpu_user_seconds": 0.44214299999999995,
+  "cpu_system_seconds": 0.39638999999999996,
+  "child_peak_rss_bytes": 38715392,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.0014748750036233105,
+      2392064
+    ],
+    [
+      0.2077969580059289,
+      33947648
+    ],
+    [
+      0.4212167080040672,
+      38600704
+    ],
+    [
+      0.6316577920006239,
+      38600704
+    ],
+    [
+      0.84200383300049,
+      38600704
+    ],
+    [
+      1.046852833002049,
+      38633472
+    ],
+    [
+      1.2596100420050789,
+      38633472
+    ],
+    [
+      1.4711615000051097,
+      38633472
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 180.0,
+  "total_scientific_seconds_after": null,
+  "stdout": "logs/saved_output_audit.stdout",
+  "stderr": "logs/saved_output_audit.stderr"
+}

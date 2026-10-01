@@ -1,0 +1,45 @@
+{
+  "command": [
+    "build/c4_acceptance",
+    "--self-test"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_c4_paper_20260929T164312Z",
+  "utc_started": "2026-09-29T16:51:09.917464+00:00",
+  "exit_code": 0,
+  "status": "COMPLETED",
+  "stop_reason": null,
+  "science": false,
+  "wall_seconds": 0.9867489999960526,
+  "cpu_user_seconds": 0.005921999999999999,
+  "cpu_system_seconds": 0.002681,
+  "child_peak_rss_bytes": 1671168,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.0015516249986831099,
+      32768
+    ],
+    [
+      0.21041437499661697,
+      32768
+    ],
+    [
+      0.41374370899575297,
+      32768
+    ],
+    [
+      0.6145229169997037,
+      32768
+    ],
+    [
+      0.8155355419949046,
+      32768
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 30.0,
+  "total_scientific_seconds_after": null,
+  "stdout": "logs/science_adapter_unit.stdout",
+  "stderr": "logs/science_adapter_unit.stderr"
+}

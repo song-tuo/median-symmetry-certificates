@@ -1,0 +1,13 @@
+src/c4_acceptance.cpp:19:6: warning: misleading indentation; statement is not part of the previous 'for' [-Wmisleading-indentation]
+   19 |     }return gs;
+      |      ^
+src/c4_acceptance.cpp:12:5: note: previous statement is here
+   12 |     for(int refl=0;refl<2;++refl)for(int k=0;k<4;++k){
+      |     ^
+src/c4_acceptance.cpp:76:6: warning: misleading indentation; statement is not part of the previous 'for' [-Wmisleading-indentation]
+   76 |     }o<<']';return o.str();
+      |      ^
+src/c4_acceptance.cpp:74:5: note: previous statement is here
+   74 |     for(unsigned j=0;j<25;++j)if((x>>j)&1){
+      |     ^
+2 warnings generated.

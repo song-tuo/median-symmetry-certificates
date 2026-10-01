@@ -1,0 +1,31 @@
+{
+  "command": [
+    "python3 [original runtime path removed]",
+    "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z/independent_group_enumerator.py",
+    "--output",
+    "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z/enumerator_result.json"
+  ],
+  "cwd": "$ORIGINAL_PROJECT/runs/r4_mom_structure_20260929T144652Z",
+  "utc_started": "2026-09-29T14:58:20.938371+00:00",
+  "exit_code": 0,
+  "status": "COMPLETED",
+  "stop_reason": null,
+  "science": true,
+  "wall_seconds": 0.18085720800445415,
+  "cpu_user_seconds": 0.134728,
+  "cpu_system_seconds": 0.010924,
+  "child_peak_rss_bytes": 35995648,
+  "rss_scope": "OS wait4 child maximum RSS; ps child-only RSS monitored at approximately 0.2s; no scientific child processes allowed",
+  "rss_limit_bytes": 4294967296,
+  "rss_samples": [
+    [
+      0.002206832999945618,
+      2408448
+    ]
+  ],
+  "address_space_limit_bytes": null,
+  "wall_limit_seconds": 180.0,
+  "total_scientific_seconds_after": 0.46689087500271853,
+  "stdout": "logs/group_enumeration.stdout",
+  "stderr": "logs/group_enumeration.stderr"
+}

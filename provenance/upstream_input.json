@@ -1,0 +1,12 @@
+{
+  "project": "AxMED approximate-medians",
+  "repository": "https://github.com/ehw-fit/approximate-medians",
+  "commit": "bea7946a0653d0f6ca0612aa9cdc04593597aeda",
+  "path": "netlist/mom25_v2.cha",
+  "url": "https://raw.githubusercontent.com/ehw-fit/approximate-medians/bea7946a0653d0f6ca0612aa9cdc04593597aeda/netlist/mom25_v2.cha",
+  "sha256": "2f563ac6cf021089dcd13ee611d5e3aa275ccc12aec0671b6c929ce9740663f1",
+  "bytes": 699,
+  "redistributed": false,
+  "reason": "No explicit upstream license found in fixed commit README/tree or current repository license metadata; use pinned upstream download and verify bytes.",
+  "reference_doi": "10.1109/ISCAS56072.2025.11043775"
+}
