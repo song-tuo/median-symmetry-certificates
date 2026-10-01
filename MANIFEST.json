@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "scope": "Frozen public payload. Manifest and its SHA256SUMS representation are excluded from self-hashing. The third-party netlist is downloaded separately and is not a release payload.",
   "files": [
     {
@@ -10,22 +10,37 @@
     {
       "path": "CITATION.cff",
       "bytes": 466,
-      "sha256": "e5a5bd4e5c68f59004334a569bb6af0ff42b3971b61188e9f24a36e946bab75c"
+      "sha256": "19479afc7403e8a1cf288afcd84ca07b81439c67b96bf55cd9ed536045fa77b7"
     },
     {
       "path": "README.md",
-      "bytes": 6083,
-      "sha256": "b2e5f6ec8a4729a612c7f78a32b41112ed311b9afc23a6789e7cef4c535d7704"
+      "bytes": 8631,
+      "sha256": "ca4b186b9b781cfcd5db9e5443f4500dce2759738420cf95c96814d9e4523a49"
     },
     {
       "path": "RIGHTS.md",
-      "bytes": 946,
-      "sha256": "f4ad46659f3a3723ac672b307950509120612e0667c9428b101e790a72815d96"
+      "bytes": 1049,
+      "sha256": "3b04bea83d06fbf703a358fd26e2a6793a7ff2606d3acf2b1fafcdb953ff6ecc"
     },
     {
       "path": "checks/c4/src/c4_acceptance.cpp",
       "bytes": 10277,
       "sha256": "8ff3de3026b858cf73d10a225428b256f7a120810a77d999ad3a22282960c7d3"
+    },
+    {
+      "path": "checks/reuse/protocol.json",
+      "bytes": 2560,
+      "sha256": "8726cae3c94ac95730561c9fb15ca1dc0d9a5e5fd8a0efb28044026bf597757c"
+    },
+    {
+      "path": "checks/reuse/src/check_geometric_lemma.py",
+      "bytes": 2861,
+      "sha256": "9038d69702f94f9087a749b274735f1f030e964a4b6d102207ea4d5412ea380a"
+    },
+    {
+      "path": "checks/reuse/src/verify_fixed_witness.py",
+      "bytes": 4921,
+      "sha256": "ad52405f68d7f9427ca7ce1dba23f906fe61433dc5aa5f91b8d8d02b862b2e2b"
     },
     {
       "path": "data/c4_wiring.json",
@@ -38,19 +53,34 @@
       "sha256": "93a4d9ea404a068f019c3449f1b506e4ca77c1f9d40202fd873026422da76ba0"
     },
     {
+      "path": "proofs/whole_block_reuse.md",
+      "bytes": 5862,
+      "sha256": "485d61ab26ab56cc24390c39af13ce09b6624f62f275a41672be71af7e8d2c4a"
+    },
+    {
       "path": "provenance/EXACT_COPY_MANIFEST.json",
       "bytes": 4985,
       "sha256": "5aee7535d8d8d72f3c39a526cec4a931b2e76371dc704aafcb7ac42df483ea28"
     },
     {
       "path": "provenance/claim_evidence.json",
-      "bytes": 944,
-      "sha256": "2a7ae4f86aedb86eb5ce0fca142f99647f61070f02eb9d949745bd85cd899646"
+      "bytes": 1292,
+      "sha256": "bec68bf310e44a00a499f92cdba11a744b975e5008c473ce9270da9d2b72b494"
     },
     {
       "path": "provenance/release_scope.json",
       "bytes": 940,
       "sha256": "2dbc8353e32dd522da81e3f91e0f56aa30d57be7b8ee56ce7b5c381618bf358d"
+    },
+    {
+      "path": "provenance/reuse_derivation.json",
+      "bytes": 5035,
+      "sha256": "6ce87588062c66a54c7375594eb7b1a8076926c5ad6182d22da1d21336ebe4c8"
+    },
+    {
+      "path": "provenance/seven_comparator_module.json",
+      "bytes": 1106,
+      "sha256": "c9d2c0711280f2fd7ef0dd99c187e855b1ea11d8c56f7274632469463e662b0d"
     },
     {
       "path": "provenance/upstream_input.json",
@@ -126,6 +156,46 @@
       "path": "records/environment.json",
       "bytes": 1065,
       "sha256": "3de01b8ac43f30589320b3845f60c2077567c00f6e9f73f1edb47f04080931e4"
+    },
+    {
+      "path": "records/reuse/accept_geometric_lemma.json",
+      "bytes": 524,
+      "sha256": "fdd56f7f5554a2043a2493880b802603386f409692785ba1389dbad7c82658dc"
+    },
+    {
+      "path": "records/reuse/accept_geometric_lemma.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "records/reuse/accept_geometric_lemma.stdout",
+      "bytes": 415,
+      "sha256": "3d8f05629534a564142cc25fa46d0dcb752dd9ad6653de7fde72bf01e8c9ce30"
+    },
+    {
+      "path": "records/reuse/accept_witness.json",
+      "bytes": 529,
+      "sha256": "41fadeac9e5437e4a35205f8168876a8d55aed8258f8f7fee7e7a95d708f8750"
+    },
+    {
+      "path": "records/reuse/accept_witness.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "records/reuse/accept_witness.stdout",
+      "bytes": 191,
+      "sha256": "1713e2e1890e4289b80ab5f8fce84e1519e58f0d0bbd670fae7adf276c894213"
+    },
+    {
+      "path": "records/reuse/original_src/check_geometric_lemma.py",
+      "bytes": 2560,
+      "sha256": "fe93a0939385a876622e13bbb6faa9f97bcf3b8def4b56fbe309c2113e3fc2ff"
+    },
+    {
+      "path": "records/reuse/original_src/verify_fixed_witness.py",
+      "bytes": 4732,
+      "sha256": "83dc3852fca9c44c6c85c9c493a9fae3f11a2e04a96f88915eb71baffdf21abf"
     },
     {
       "path": "records/structure/build_function_structure.json",
@@ -288,6 +358,16 @@
       "sha256": "73290afe532d959903ede07ed1d0e0baba9ec042424d83c8f46eb9c0c7973dc7"
     },
     {
+      "path": "results/reuse/geometric_lemma.json",
+      "bytes": 19231,
+      "sha256": "9c6b774ac926bd59a1ec064398d867473d2ca3ed596e019f5ec52f2f724e9af3"
+    },
+    {
+      "path": "results/reuse/witness.json",
+      "bytes": 5130,
+      "sha256": "049e23bc4205f691bfd284801638f0acb2d1751d0e098a658e5953f68c3b2278"
+    },
+    {
       "path": "results/structure/all_2300_third_order_counts.csv",
       "bytes": 36363,
       "sha256": "b254ce6cb8fcaa0aefad3daf8929c0d17b977e6d6e4829a6f75db1b970d0aebb"
@@ -373,9 +453,14 @@
       "sha256": "43c5e9b45330c2611c4653ba4373f3d0e427be99bee75f350adcc01c455a5e43"
     },
     {
+      "path": "tools/reproduce_reuse.py",
+      "bytes": 2125,
+      "sha256": "964882d4a006a4b2525ceab0fb380fdb3491972f1f0f3446beb587c1aa7ceae5"
+    },
+    {
       "path": "tools/verify_artifact.py",
-      "bytes": 2523,
-      "sha256": "6dd1acd80d735337170b27744f608a9436e8ceb02fc3c508e0462fe5d8f91b39"
+      "bytes": 3138,
+      "sha256": "7364659c35457965d2b3abcd0a540ff23d0bb04742cd59780663e099bbb4eb29"
     }
   ]
 }

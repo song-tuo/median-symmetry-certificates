@@ -1,0 +1,89 @@
+{
+  "scope": "One fixed user-provided construction plus independent finite check of a geometric obstruction lemma. No full mapping enumeration or optimization.",
+  "frozen_blocks": {
+    "C0": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "C1": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "Cj": "r^(j-1) C1 for j=2,3,4"
+  },
+  "rotation": "r(x,y)=(-y,x)",
+  "grid": "[-2,2]^2 integer coordinates",
+  "index": "u=(x+2)+5(y+2)",
+  "pin_to_position": "pin 5*j+l receives ordered entry l of Cj",
+  "model": {
+    "reuse": "Only exact reuse of a complete five-input median result for identical translated five-point sample sets; all scalar inputs; no data-dependent shortcuts.",
+    "primitive": "Every newly computed median uses the existing seven-comparator module; no sharing of individual comparator results.",
+    "domain": "Steady-state interior output density on the full lattice; finite-image initialization, boundary and memory/control costs excluded.",
+    "outer": "One fresh seven-comparator outer median per output.",
+    "quantity": "7*(number_of_translation_classes_of_inner_blocks+1) comparator evaluations per output; not circuit area or timing."
+  },
+  "acceptance": [
+    "Five disjoint blocks of size five cover the grid",
+    "Quarter turns act as C0 fixed, C1-C4 cyclic",
+    "C3=C1+(-2,0), C4=C2+(0,-2)",
+    "Translation classes exactly [C0], [C1,C3], [C2,C4]",
+    "Input pin map is a bijection, induced rotations permute whole logical modules",
+    "Independent five-point-set check has zero eligible noncentral sets congruent to their quarter-turn by translation",
+    "Original identity/netlist evidence unchanged"
+  ],
+  "independent_check": {
+    "domain": "All C(25,5)=53130 five-point subsets; test quarter-turn translation equivalence only; do not construct partitions or evaluate functions.",
+    "expected_eligible_counterexamples": 0
+  },
+  "limits": {
+    "each_command_wall_timeout_seconds": 30,
+    "checker_final_peak_rss_acceptance_bytes": 268435456
+  },
+  "stop_on_failure": true,
+  "forbidden": [
+    "Images",
+    "Full Boolean cube rerun",
+    "1536-partition search",
+    "Reflection-defect evaluation",
+    "Pareto optimization",
+    "Synthesis",
+    "P&R",
+    "Public release modification"
+  ]
+}

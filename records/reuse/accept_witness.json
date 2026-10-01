@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 0.07752608400187455,
+  "cpu_user_seconds": 0.029131999999999998,
+  "cpu_system_seconds": 0.009224,
+  "child_max_rss_bytes": 24461312,
+  "scope": "Bounded geometric acceptance or authoring/build; no full-cube circuit evaluation",
+  "historical_receipt_sha256": "6fc676b50e1d1ffa2c1735704a00264896ee6843aaa3efaba186349dfa418a53",
+  "command_role": "accept_witness",
+  "redaction": "Execution measurements copied; private paths omitted. See original source digests in reuse_derivation.json."
+}

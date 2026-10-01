@@ -1,0 +1,94 @@
+{
+  "version": "v1.1.0",
+  "science_run_date": "2026-10-01",
+  "release_preparation": "Saved-evidence publication; no science rerun. Portable adapters statically checked only.",
+  "files": [
+    {
+      "public_path": "proofs/whole_block_reuse.md",
+      "original_sha256": "485d61ab26ab56cc24390c39af13ce09b6624f62f275a41672be71af7e8d2c4a",
+      "public_sha256": "485d61ab26ab56cc24390c39af13ce09b6624f62f275a41672be71af7e8d2c4a",
+      "treatment": "byte-identical",
+      "note": ""
+    },
+    {
+      "public_path": "checks/reuse/protocol.json",
+      "original_sha256": "8726cae3c94ac95730561c9fb15ca1dc0d9a5e5fd8a0efb28044026bf597757c",
+      "public_sha256": "8726cae3c94ac95730561c9fb15ca1dc0d9a5e5fd8a0efb28044026bf597757c",
+      "treatment": "byte-identical",
+      "note": "Historical science protocol, including its original no-publication scope. Publication occurs in a separate, explicitly authorized round."
+    },
+    {
+      "public_path": "results/reuse/geometric_lemma.json",
+      "original_sha256": "9c6b774ac926bd59a1ec064398d867473d2ca3ed596e019f5ec52f2f724e9af3",
+      "public_sha256": "9c6b774ac926bd59a1ec064398d867473d2ca3ed596e019f5ec52f2f724e9af3",
+      "treatment": "byte-identical",
+      "note": ""
+    },
+    {
+      "public_path": "provenance/seven_comparator_module.json",
+      "original_sha256": "ef50540cee67e59973f7ec88ff82abdf74874fd778bffed2f9ef468b4ec78784",
+      "public_sha256": "c9d2c0711280f2fd7ef0dd99c187e855b1ea11d8c56f7274632469463e662b0d",
+      "treatment": "source path redacted; all connectivity/count/hash fields unchanged"
+    },
+    {
+      "public_path": "results/reuse/witness.json",
+      "original_sha256": "a82dbcc98fc97eedde7754ee1fe54fe0ae9659cba82ae1bde3519d51309002b2",
+      "public_sha256": "049e23bc4205f691bfd284801638f0acb2d1751d0e098a658e5953f68c3b2278",
+      "treatment": "Only input_hashes keys replaced by logical labels. Historical hash values and scientific fields unchanged. The module-audit historical digest identifies the original, not its redacted derivative."
+    },
+    {
+      "public_path": "records/reuse/original_src/verify_fixed_witness.py",
+      "original_sha256": "83dc3852fca9c44c6c85c9c493a9fae3f11a2e04a96f88915eb71baffdf21abf",
+      "public_sha256": "83dc3852fca9c44c6c85c9c493a9fae3f11a2e04a96f88915eb71baffdf21abf",
+      "treatment": "byte-identical",
+      "note": "Historical source. Use checks/reuse/src for portable paths/output handling."
+    },
+    {
+      "public_path": "checks/reuse/src/verify_fixed_witness.py",
+      "original_sha256": "83dc3852fca9c44c6c85c9c493a9fae3f11a2e04a96f88915eb71baffdf21abf",
+      "public_sha256": "ad52405f68d7f9427ca7ce1dba23f906fe61433dc5aa5f91b8d8d02b862b2e2b",
+      "treatment": "Portable path and output adapter. Function ASTs match original after reversing documented path/output changes. No algorithm changed; not freshly executed for this release."
+    },
+    {
+      "public_path": "records/reuse/original_src/check_geometric_lemma.py",
+      "original_sha256": "fe93a0939385a876622e13bbb6faa9f97bcf3b8def4b56fbe309c2113e3fc2ff",
+      "public_sha256": "fe93a0939385a876622e13bbb6faa9f97bcf3b8def4b56fbe309c2113e3fc2ff",
+      "treatment": "byte-identical",
+      "note": "Historical source. Use checks/reuse/src for portable paths/output handling."
+    },
+    {
+      "public_path": "checks/reuse/src/check_geometric_lemma.py",
+      "original_sha256": "fe93a0939385a876622e13bbb6faa9f97bcf3b8def4b56fbe309c2113e3fc2ff",
+      "public_sha256": "9038d69702f94f9087a749b274735f1f030e964a4b6d102207ea4d5412ea380a",
+      "treatment": "Portable path and output adapter. Function ASTs match original after reversing documented path/output changes. No algorithm changed; not freshly executed for this release."
+    },
+    {
+      "public_path": "records/reuse/accept_witness.stdout",
+      "original_sha256": "1713e2e1890e4289b80ab5f8fce84e1519e58f0d0bbd670fae7adf276c894213",
+      "public_sha256": "1713e2e1890e4289b80ab5f8fce84e1519e58f0d0bbd670fae7adf276c894213",
+      "treatment": "byte-identical",
+      "note": ""
+    },
+    {
+      "public_path": "records/reuse/accept_witness.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "byte-identical",
+      "note": ""
+    },
+    {
+      "public_path": "records/reuse/accept_geometric_lemma.stdout",
+      "original_sha256": "3d8f05629534a564142cc25fa46d0dcb752dd9ad6653de7fde72bf01e8c9ce30",
+      "public_sha256": "3d8f05629534a564142cc25fa46d0dcb752dd9ad6653de7fde72bf01e8c9ce30",
+      "treatment": "byte-identical",
+      "note": ""
+    },
+    {
+      "public_path": "records/reuse/accept_geometric_lemma.stderr",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "byte-identical",
+      "note": ""
+    }
+  ]
+}

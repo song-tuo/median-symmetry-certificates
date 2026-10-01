@@ -24,10 +24,15 @@ def main():
             require(int(r['boolean_inputs'])==raw['N'],'Table II domain mismatch')
     spec=read(ROOT/'provenance/upstream_input.json');net=ROOT/'inputs/mom25_v2.cha'
     if net.exists():require(hashlib.sha256(net.read_bytes()).hexdigest()==spec['sha256'],'Input mismatch')
+    witness=read(ROOT/'results/reuse/witness.json');geom=read(ROOT/'results/reuse/geometric_lemma.json')
+    require(witness['status']=='PASS' and witness['translation_classes']==[[0],[1,3],[2,4]],'Reuse witness classes')
+    require(witness['schedule']['comparator_evaluations_per_output']==28,'Reuse operation count')
+    require(geom['status']=='PASS' and geom['five_point_subsets_checked']==53130 and geom['eligible_counterexample_count']==0,'Geometric lemma record')
+    require(geom['partitions_generated']==0 and geom['function_evaluations']==0,'Geometric check scope')
     if a.fresh_dir:
         for fn in ['function_identity.json','first_order.json','second_order.json','third_order.json']:
             require(read(a.fresh_dir/fn)==read(ROOT/'results/structure'/fn),'Fresh result differs: '+fn)
         require(read(a.fresh_dir/'c4_raw.json')==raw,'Fresh C4 result differs')
         require(read(a.fresh_dir/'reflection_counterexample.json')==read(ROOT/'results/c4/reflection_counterexample.json'),'Fresh counterexample differs')
-    print(json.dumps({'status':'PASS','payload_files_verified':len(m['files']),'input_present_and_verified':net.exists(),'saved_identity_mismatches':0,'table_ii_matches_raw_record':True,'fresh_results_compared':bool(a.fresh_dir),'scientific_evaluator_invoked_by_this_tool':False},indent=2))
+    print(json.dumps({'status':'PASS','payload_files_verified':len(m['files']),'input_present_and_verified':net.exists(),'saved_identity_mismatches':0,'table_ii_matches_raw_record':True,'saved_reuse_records_consistent':True,'fresh_results_compared':bool(a.fresh_dir),'scientific_evaluator_invoked_by_this_tool':False},indent=2))
 if __name__=='__main__':main()

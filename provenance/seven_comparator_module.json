@@ -1,0 +1,57 @@
+{
+  "scope": "Static netlist connectivity inspection; no functional re-evaluation",
+  "source": "inputs/mom25_v2.cha",
+  "source_sha256": "2f563ac6cf021089dcd13ee611d5e3aa275ccc12aec0671b6c929ce9740663f1",
+  "comparators": 42,
+  "module_count": 6,
+  "comparators_per_module": 7,
+  "all_six_modules_have_identical_normalized_connectivity": true,
+  "normalized_module_comparators": [
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      3,
+      4,
+      1
+    ],
+    [
+      5,
+      7,
+      1
+    ],
+    [
+      6,
+      8,
+      1
+    ],
+    [
+      11,
+      2,
+      1
+    ],
+    [
+      14,
+      10,
+      1
+    ],
+    [
+      13,
+      15,
+      1
+    ]
+  ],
+  "cached_row_schedule": {
+    "new_inner_medians_per_output": 1,
+    "outer_medians_per_output": 1,
+    "comparator_evaluations_per_output": 14
+  },
+  "direct_window_schedule": {
+    "inner_medians_per_output": 5,
+    "outer_medians_per_output": 1,
+    "comparator_evaluations_per_output": 42
+  },
+  "interpretation": "Steady-state operation counts for these two schedules only; no lower bound or area/power/throughput ratio is inferred."
+}

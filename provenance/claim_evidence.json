@@ -12,5 +12,10 @@
   "netlist_identity_source": "src/function_structure.cpp",
   "fixed_wiring_source": "checks/c4/src/c4_acceptance.cpp",
   "independent_enumeration_source": "src/independent_group_enumerator.py",
-  "all_odd_n_classification": "Symbolic theorem in the associated manuscript, not an all-n experimental result."
+  "all_odd_n_classification": "Symbolic theorem in the associated manuscript, not an all-n experimental result.",
+  "whole_block_reuse_model_and_lower_bound": "proofs/whole_block_reuse.md",
+  "fixed_reuse_witness": "results/reuse/witness.json",
+  "independent_geometric_lemma_check": "results/reuse/geometric_lemma.json",
+  "seven_comparator_primitive": "provenance/seven_comparator_module.json",
+  "reuse_source_derivation": "provenance/reuse_derivation.json"
 }
